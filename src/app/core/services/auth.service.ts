@@ -1,4 +1,4 @@
-/* import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { User, LoginRsp, SignupRsp, LogoutRsp } from '../models/user';
 import { Observable } from 'rxjs/Observable';
 import { environment } from '../../../environments/environment';
@@ -53,4 +53,4 @@ export class AuthService {
     httpOptions)
   }
 }
- */
+ 
