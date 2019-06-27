@@ -43,7 +43,7 @@ export class ClientListingComponent implements OnInit {
         })
       }, err => this.errorHandler(err, 'Failed to delete client'))
   }
-  openDialog(clientId: string): void {
+  openDialog(clientId?: string): void {
     const options = {
       width: '400px',
       height: '300px',
